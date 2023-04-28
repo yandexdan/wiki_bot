@@ -24,12 +24,13 @@ async def help(update, context):
 async def start(update, context):
     await update.message.reply_text(
         "Привет, Я бот справочник!\n"
-        "Могу найти информацию по слову.", reply_markup=markup)  #
+        "Могу найти информацию по слову.", reply_markup=markup) 
 
 
 async def about(update, context):
     await update.message.reply_text('Меня завут Курдин даниил, а это мой проект - чат_бот поисковик.\n'
-                                    'Он получает слово у пользывателя и ищет информацию о нём в wikipedia')
+                                    'Он получает слово у пользывателя и ищет информацию о нём в wikipedia.\n'
+                                    'Мой Git-hub: https://github.com/yandexdan/wiki_bot')
 
 
 async def lang(update, context):
@@ -128,3 +129,4 @@ def main():
 # Запускаем функцию main() в случае запуска скрипта.
 if __name__ == '__main__':
     main()
+
