@@ -28,7 +28,7 @@ async def start(update, context):
 
 
 async def about(update, context):
-    await update.message.reply_text('Меня завут Курдин даниил, а это мой проект - чат_бот поисковик.\n'
+    await update.message.reply_text('Меня завут Курдин Даниил, а это мой проект - чат_бот поисковик.\n'
                                     'Он получает слово у пользывателя и ищет информацию о нём в wikipedia.\n'
                                     'Мой Git-hub: https://github.com/yandexdan/wiki_bot')
 
